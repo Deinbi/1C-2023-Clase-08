@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Botonloco from './Botones'
-import _video from './Videos'
+
 
 export default function Home() {
   return (
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       
       <Botonloco></Botonloco>
-      <_video></_video>
+     
 
       <div className={styles.grid}>
         <a
